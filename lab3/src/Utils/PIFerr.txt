@@ -1,0 +1,8 @@
+pos in ST: Position <-1,-1> | id: string
+pos in ST: Position <-1,-1> | id: ;
+pos in ST: Position <-1,-1> | id: =
+pos in ST: Position <-1,-1> | id: ;
+pos in ST: Position <-1,-1> | id: print
+pos in ST: Position <-1,-1> | id: (
+pos in ST: Position <-1,-1> | id: )
+pos in ST: Position <-1,-1> | id: ;

@@ -1,3 +1,5 @@
+package Model;
+
 public class HashtablePosition {
     int hashPosition;
     int slot;

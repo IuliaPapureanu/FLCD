@@ -1,4 +1,7 @@
-import java.security.KeyPair;
+package Model;
+
+import Model.HashtablePosition;
+
 import java.util.ArrayList;
 
 public class SymbolTable {
@@ -43,6 +46,27 @@ public class SymbolTable {
         if(elements.get(hash(key)).contains(key))
             return new HashtablePosition(hash(key),elements.get(hash(key)).indexOf(key));
         return null;
+    }
+    public boolean contains(String key){
+        int hashValue = hash(key);
+
+        return elements.get(hashValue).contains(key);
+    }
+
+    public Pair<Integer, Integer> getPosition(String key){
+        if (this.contains(key)){
+            int listPosition = this.hash(key);
+            int listIndex = 0;
+            for(String el:this.elements.get(listPosition)) {
+                if (!el.equals(key))
+                    listIndex++;
+                else
+                    break;
+            }
+
+            return new Pair<>(listPosition, listIndex);
+        }
+        return new Pair<>(-1, -1);
     }
 
 }
