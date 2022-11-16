@@ -100,6 +100,7 @@ public class CustomScanner {
         return constant.toString();
     }
 
+    //TO DO: remove char
     public String identifyCharConstant(String line, int position) {
         StringBuilder constant = new StringBuilder();
 
