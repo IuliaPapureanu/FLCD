@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcbda604-05d0-4a56-9005-5436d81c142e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Utils/P1err.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/P1err.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/FiniteAutomata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/FA.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/identifierDFA.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/intDFA.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/CustomScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/CustomScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/SymbolTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/SymbolTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentatie-lab3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3/Model/CustomScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Model/CustomScanner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3/Model/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Model/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3/Model/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Model/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3/Utils/P1err.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Utils/P1err.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3/Utils/PIF1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Utils/PIF1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3/Utils/PIF2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Utils/PIF2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3/Utils/PIF3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Utils/PIF3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3/Utils/PIFerr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/Utils/PIFerr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/PIF1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/PIF1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/PIF2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/PIF2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/PIF3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/PIF3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/PIFerr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/PIFerr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$cumentatie-lab3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~WRL0251.tmp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +46,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Model/Language.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Model/CustomScanner.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Model/SymbolTable.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Model/PIFelement.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Model/Language.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Model/PIF.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Model/PIFelement.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Model/SymbolTable.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,12 +64,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/An3-sem1/Programare paralela/PDPLab1" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -67,7 +88,11 @@
       <workItem from="1667550069664" duration="449000" />
       <workItem from="1668447424965" duration="6983000" />
       <workItem from="1668501420258" duration="936000" />
-      <workItem from="1668544526236" duration="5973000" />
+      <workItem from="1668544526236" duration="11963000" />
+      <workItem from="1668604514534" duration="838000" />
+      <workItem from="1668610175500" duration="3000" />
+      <workItem from="1669191731921" duration="225000" />
+      <workItem from="1670405549556" duration="19000" />
     </task>
     <servers />
   </component>
